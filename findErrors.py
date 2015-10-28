@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+#
+# Example script that locates user defined "pathological" behavior
+# This is where speed counts (maybe)
+#
 
 from capMatch import *
 import numpy as np
