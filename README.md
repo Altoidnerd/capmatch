@@ -2,7 +2,6 @@ Python calculation of matching parameters from A.R. Majewski, M. Walker; "Rapid 
 
 ![example-output](https://github.com/Altoidnerd/capmatch/blob/master/img/Selection_001.png?raw=true)
 ![matching-network-a](https://raw.githubusercontent.com/Altoidnerd/nmr-tank-circuits/master/circuit_diagrams/matching-a.jpg)
-![matching-network-b](https://raw.githubusercontent.com/Altoidnerd/nmr-tank-circuits/master/circuit_diagrams/matching-b.jpg)
 
 ### Interactive mode for matching circuit A
 
