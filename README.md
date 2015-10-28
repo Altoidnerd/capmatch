@@ -3,8 +3,6 @@
 
 Please cite:
 ```
-please cite:
-
      		"A. Majewski, M. Walker; J. of my Dreams (2015) Journal of NotYet;
      		URL http://github.com/altoidnerd/capMatch
      		in publications or presentations arising from this work
