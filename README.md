@@ -1,4 +1,7 @@
 # Python calculation of magnetic resonance probe impedance matching parameters 
+
+Simple command line tools to accurately calculate capacitance values that satisfy the matching condition for any mathemtaically acceptable circuit configuration and operating frequency.
+
 ![example-output](https://github.com/Altoidnerd/capmatch/blob/master/img/Selection_001.png?raw=true)
 
 Please cite:
@@ -8,14 +11,30 @@ Please cite:
      		in publications or presentations arising from this work
 ```
 ![matching-network-a](https://raw.githubusercontent.com/Altoidnerd/nmr-tank-circuits/master/circuit_diagrams/matching-a.jpg)
+------------------------------------
 
 Above is the circuit for which this program calculates C1, C2 that result in the matching condition when an ordered 4-tuple (frequency, characteristicImpedance, coilInductance, equivalentSeriesResistance) is passed to the function full_tank().
 
-# 2 or 3
+
+# Features
+* uses only basic libraries (no numpy, matplotlib, etc, for which installation can be non-trivial) thus making the code more cross-platform-friendly
+* no classes (this is a feature if you like functions)
+* pretty fast
+
+# Python2 v Python3
 
 This code "officially" supports python3, though an attempt is made to make the code work in python 2.7.* as well.  Submit an issue if something is broken in python2.
 
-# General Usage
+# Installation
+
+There isn't much code here to "install", but you will need a working shell and a python distribution.
+
+* Designed with *NIX operating systems in mind
+* Should work on linux, mac out of the box
+* Windows users should:
+	- install [git bash](https://git-scm.com/downloads) and run bash from powershell (you should also set pythonX.Y.Z to be in your PATH)
+	- remove shebang lines from code
+
 
 You can either
 
