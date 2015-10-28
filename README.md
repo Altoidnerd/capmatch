@@ -1,9 +1,25 @@
-Python calculation of matching parameters from A.R. Majewski, M. Walker; "Rapid Design of Impedance Matching Networks for NMR and NQR Studies in the HF and VHF Bands." Journal of Nowhere, 2015 doi: ####-##-###"
-
+# Python calculation of magnetic resonance probe impedance matching parameters 
 ![example-output](https://github.com/Altoidnerd/capmatch/blob/master/img/Selection_001.png?raw=true)
+
+Please cite:
+```
+please cite:
+
+     		"A. Majewski, M. Walker; J. of my Dreams (2015) Journal of NotYet;
+     		URL http://github.com/altoidnerd/capMatch
+     		in publications or presentations arising from this work
+```
 ![matching-network-a](https://raw.githubusercontent.com/Altoidnerd/nmr-tank-circuits/master/circuit_diagrams/matching-a.jpg)
 
-### Interactive mode for matching circuit A
+Above is the circuit for which this program calculates C1, C2 that result in the matching condition when an ordered 4-tuple (frequency, characteristicImpedance, coilInductance, equivalentSeriesResistance) is passed to the function full_tank().
+
+# 2 or 3
+
+This code "officially" supports python3, though an attempt is made to make the code work in python 2.7.* as well.  Submit an issue if something is broken in python2.
+
+# General Usage
+
+### Use capMatch.py in Interactive mode (ipython3 recommended)
 
     ipython3 -i capMatch.py
 
