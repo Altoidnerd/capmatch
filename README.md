@@ -17,7 +17,9 @@ This code "officially" supports python3, though an attempt is made to make the c
 
 # General Usage
 
-### Use capMatch.py in Interactive mode (ipython3 recommended)
+You can either
+
+(1) use capMatch.py in Interactive mode (ipython3 recommended)
 
     ipython3 -i capMatch.py
 
@@ -94,8 +96,9 @@ L(1 - w^2 L c2):	 1.5499985564030712
 done.
 
 ```
+or
 
-Or use main.py to be prompted for input
+(2) use main.py to be prompted for input
 
 ```
 
