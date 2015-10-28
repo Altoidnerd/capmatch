@@ -14,7 +14,8 @@ then set
     In[2]:	full_tank(*args)
 
 for example:
-'''
+
+```
 $ ipython3 -i capMatch.py 
 Python 3.4.3 (default, Jul 28 2015, 18:20:59) 
 Type "copyright", "credits" or "license" for more information.
@@ -78,10 +79,13 @@ c2 r^2 << L(1 - w^2 L c2)
  c2 r^2:		 7.916785000501037e-11 
 L(1 - w^2 L c2):	 1.5499985564030712
 done.
-'''
+
+```
 
 Or use main.py to be prompted for input
-'''
+
+```
+
 $ chmod +x ./main.py
 
 
@@ -102,5 +106,8 @@ $ chmod +x ./main.py
 input frequency in MHz: 
 
 ...
-'''
+
+```
+
+
 
