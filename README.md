@@ -51,42 +51,14 @@ for example:
 
 ```
 $ ipython3 -i capMatch.py 
-Python 3.4.3 (default, Jul 28 2015, 18:20:59) 
-Type "copyright", "credits" or "license" for more information.
-
-IPython 1.2.1 -- An enhanced Interactive Python.
-?         -> Introduction and overview of IPython's features.
-%quickref -> Quick reference.
-help      -> Python's own help system.
-object?   -> Details about 'object', use 'object??' for extra details.
-
-
-
-
-	PROGRAM CAPMATCH.v.0.1	running on: Wed Oct 28 08:18:24 EDT 2015
-
-
-		Authors: Allen Majewski, Morgan Walker (C) 2015
-    		This program is part of the open-source NMR-TANK-CIRCUITS suite
-     		for calculation of NMR design parameters; please cite:
-
-     		"A. Majewski, M. Walker, et al., Awesome publication (2015) Journal of 1337;
-     		URL http://github.com/altoidnerd/nmr-tank-circuits
-     		in publications or presentations arising from this work. More details at
-     		http://www.phys.ufl.edu/~majewski
-
-	Note:	C_2 -> c_tune	C_1 -> c_match
-
+...(python starup message)
+...(capMatch startup message)
 
 	... waiting for input...	specify args = (f, z, L, r):
-
-
-
 
 In [1]: args = (3.3, 50, 1.55, .238)
 
 In [2]: full_tank(*args)
-
 
 ======INPUT PARAMETERS=====
 f:	3.3 MHz
@@ -121,26 +93,12 @@ done.
 ```
 
 $ chmod +x ./main.py
+... capMatch message ... 
 
-
-
-
-	PROGRAM CAPMATCH.v.0.1	running on: Wed Oct 28 08:22:31 EDT 2015
-
-
-		Authors: Allen Majewski, Morgan Walker (C) 2015
-    		This program is part of the open-source NMR-TANK-CIRCUITS suite
-     		for calculation of NMR design parameters; please cite:
-
-     		"A. Majewski, M. Walker, et al., Awesome publication (2015) Journal of 1337;
-     		URL http://github.com/altoidnerd/nmr-tank-circuits
-     		in publications or presentations arising from this work. More details at
-     		http://www.phys.ufl.edu/~majewski
-
+```
+You should be prompted for input
+```
 input frequency in MHz: 
-
-...
-
 ```
 
 
