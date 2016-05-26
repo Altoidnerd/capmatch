@@ -1,4 +1,4 @@
-# Python calculation of magnetic resonance probe impedance matching parameters 
+# Impedance matching calculator for NMR
 
 Simple command line tools to accurately calculate capacitance values that satisfy the matching condition for any mathemtaically acceptable circuit configuration and operating frequency.
 
